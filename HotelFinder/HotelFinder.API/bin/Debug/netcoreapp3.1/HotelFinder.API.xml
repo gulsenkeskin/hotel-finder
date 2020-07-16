@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotelFinder.API</name>
+    </assembly>
+    <members>
+        <member name="M:HotelFinder.API.Controllers.HotelsController.Get">
+            <summary>
+            Get All Hotels
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelFinder.API.Controllers.HotelsController.GetHotelById(System.Int32)">
+            <summary>
+            Get hotel by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelFinder.API.Controllers.HotelsController.GetHotelByName(System.String)">
+            <summary>
+            Get hotel by name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelFinder.API.Controllers.HotelsController.CreateHotel(HotelFinder.Entities.Hotel)">
+            <summary>
+            Create an Hotel
+            </summary>
+            <param name="hotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelFinder.API.Controllers.HotelsController.UpdateHotel(HotelFinder.Entities.Hotel)">
+            <summary>
+            update the hotel
+            </summary>
+            <param name="hotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelFinder.API.Controllers.HotelsController.DeleteHotel(System.Int32)">
+            <summary>
+            Delete the hotel
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
